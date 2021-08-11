@@ -1,0 +1,1 @@
+# azfunc-openapi-dotnet5
