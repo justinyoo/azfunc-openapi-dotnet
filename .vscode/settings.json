@@ -1,0 +1,8 @@
+{
+    "azureFunctions.deploySubpath": "src/Net5.FunctionApp/bin/Release/net5.0/publish",
+    "azureFunctions.projectLanguage": "C#",
+    "azureFunctions.projectRuntime": "~3",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "publish (functions)",
+    "azureFunctions.projectSubpath": "src/Net5.FunctionApp"
+}
