@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F4A3E952-895D-453A-9B95-27B5E5A81E79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net50.FunctionApp.Static", "Net50.FunctionApp.Static\Net50.FunctionApp.Static.csproj", "{A1AE15F2-A1E6-4959-BC59-3A9C29033763}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net50.FunctionApp.Static", "src\Net50.FunctionApp.Static\Net50.FunctionApp.Static.csproj", "{A1AE15F2-A1E6-4959-BC59-3A9C29033763}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net50.FunctionApp.IoC", "Net50.FunctionApp.IoC\Net50.FunctionApp.IoC.csproj", "{83A44F04-BE26-4848-8102-9BFD7154D750}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net50.FunctionApp.IoC", "src\Net50.FunctionApp.IoC\Net50.FunctionApp.IoC.csproj", "{83A44F04-BE26-4848-8102-9BFD7154D750}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreApp31.FunctionApp.Static", "NetCoreApp31.FunctionApp.Static\NetCoreApp31.FunctionApp.Static.csproj", "{4DA8F7D0-6A99-45B9-94A2-7AB186711268}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreApp31.FunctionApp.Static", "src\NetCoreApp31.FunctionApp.Static\NetCoreApp31.FunctionApp.Static.csproj", "{4DA8F7D0-6A99-45B9-94A2-7AB186711268}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreApp31.FunctionApp.IoC", "src\NetCoreApp31.FunctionApp.IoC\NetCoreApp31.FunctionApp.IoC.csproj", "{CFBB13CB-2C97-44D0-AF72-11C9B201F1D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreApp31.FunctionApp.IoC", "NetCoreApp31.FunctionApp.IoC\NetCoreApp31.FunctionApp.IoC.csproj", "{CFBB13CB-2C97-44D0-AF72-11C9B201F1D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,11 +72,5 @@ Global
 		{CFBB13CB-2C97-44D0-AF72-11C9B201F1D9}.Release|x64.Build.0 = Release|Any CPU
 		{CFBB13CB-2C97-44D0-AF72-11C9B201F1D9}.Release|x86.ActiveCfg = Release|Any CPU
 		{CFBB13CB-2C97-44D0-AF72-11C9B201F1D9}.Release|x86.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{A1AE15F2-A1E6-4959-BC59-3A9C29033763} = {F4A3E952-895D-453A-9B95-27B5E5A81E79}
-		{83A44F04-BE26-4848-8102-9BFD7154D750} = {F4A3E952-895D-453A-9B95-27B5E5A81E79}
-		{4DA8F7D0-6A99-45B9-94A2-7AB186711268} = {F4A3E952-895D-453A-9B95-27B5E5A81E79}
-		{CFBB13CB-2C97-44D0-AF72-11C9B201F1D9} = {F4A3E952-895D-453A-9B95-27B5E5A81E79}
 	EndGlobalSection
 EndGlobal

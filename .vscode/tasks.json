@@ -59,10 +59,10 @@
 			"type": "func",
 			"dependsOn": "build (functions)",
 			"options": {
-				// "cwd": "${workspaceFolder}/src/Net50.FunctionApp.IoC/bin/Debug/net5.0"
-				// "cwd": "${workspaceFolder}/src/Net50.FunctionApp.Static/bin/Debug/net5.0"
-				"cwd": "${workspaceFolder}/src/NetCoreApp31.FunctionApp.IoC/bin/Debug/netcoreapp3.1"
-				// "cwd": "${workspaceFolder}/src/NetCoreApp31.FunctionApp.Static/bin/Debug/netcoreapp3.1"
+				// "cwd": "${workspaceFolder}/Net50.FunctionApp.IoC/bin/Debug/net5.0"
+				"cwd": "${workspaceFolder}/Net50.FunctionApp.Static/bin/Debug/net5.0"
+				// "cwd": "${workspaceFolder}/NetCoreApp31.FunctionApp.IoC/bin/Debug/netcoreapp3.1"
+				// "cwd": "${workspaceFolder}/NetCoreApp31.FunctionApp.Static/bin/Debug/netcoreapp3.1"
 			},
 			"command": "host start",
 			"isBackground": true,

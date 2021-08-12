@@ -1,13 +1,13 @@
 {
-    // "azureFunctions.deploySubpath": "src/Net50.FunctionApp.IoC/bin/Release/net5.0/publish",
-    // "azureFunctions.deploySubpath": "src/Net50.FunctionApp.Static/bin/Release/net5.0/publish",
-    "azureFunctions.deploySubpath": "src/NetCoreApp31.FunctionApp.IoC/bin/Release/netcoreapp3.1/publish",
-    // "azureFunctions.deploySubpath": "src/NetCoreApp31.FunctionApp.Static/bin/Release/netcoreapp3.1/publish",
+    // "azureFunctions.deploySubpath": "Net50.FunctionApp.IoC/bin/Release/net5.0/publish",
+    "azureFunctions.deploySubpath": "Net50.FunctionApp.Static/bin/Release/net5.0/publish",
+    // "azureFunctions.deploySubpath": "NetCoreApp31.FunctionApp.IoC/bin/Release/netcoreapp3.1/publish",
+    // "azureFunctions.deploySubpath": "NetCoreApp31.FunctionApp.Static/bin/Release/netcoreapp3.1/publish",
 
-    // "azureFunctions.projectSubpath": "src/Net50.FunctionApp.IoC",
-    // "azureFunctions.projectSubpath": "src/Net50.FunctionApp.Static",
-    "azureFunctions.projectSubpath": "src/NetCoreApp31.FunctionApp.IoC",
-    // "azureFunctions.projectSubpath": "src/NetCoreApp31.FunctionApp.Static",
+    // "azureFunctions.projectSubpath": "Net50.FunctionApp.IoC",
+    "azureFunctions.projectSubpath": "Net50.FunctionApp.Static",
+    // "azureFunctions.projectSubpath": "NetCoreApp31.FunctionApp.IoC",
+    // "azureFunctions.projectSubpath": "NetCoreApp31.FunctionApp.Static",
 
     "azureFunctions.projectLanguage": "C#",
     "azureFunctions.projectRuntime": "~3",
