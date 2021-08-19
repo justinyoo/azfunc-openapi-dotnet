@@ -33,7 +33,7 @@ namespace Net50.FunctionApp.Static
             var response = req.CreateResponse(HttpStatusCode.OK);
 
             var instance = new Greeting() { Message = message };
-            await response.WriteAsJsonAsync<Greeting>(instance);
+            await response.WriteAsJsonAsync<Greeting>(instance).ConfigureAwait(false);
 
             return response;
         }
