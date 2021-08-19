@@ -60,10 +60,10 @@
 			"dependsOn": "build (functions)",
 			"options": {
 				// "cwd": "${workspaceFolder}/Net50.FunctionApp.IoC/bin/Debug/net5.0"
-				// "cwd": "${workspaceFolder}/Net50.FunctionApp.Static/bin/Debug/net5.0"
+				"cwd": "${workspaceFolder}/Net50.FunctionApp.Static/bin/Debug/net5.0"
 				// "cwd": "${workspaceFolder}/Net60.FunctionApp.InProc.IoC/bin/Debug/net6.0"
 				// "cwd": "${workspaceFolder}/Net60.FunctionApp.InProc.Static/bin/Debug/net6.0"
-				"cwd": "${workspaceFolder}/Net60.FunctionApp.OutOfProc.IoC/bin/Debug/net6.0"
+				// "cwd": "${workspaceFolder}/Net60.FunctionApp.OutOfProc.IoC/bin/Debug/net6.0"
 				// "cwd": "${workspaceFolder}/Net60.FunctionApp.OutOfProc.Static/bin/Debug/net6.0"
 				// "cwd": "${workspaceFolder}/NetCoreApp31.FunctionApp.IoC/bin/Debug/netcoreapp3.1"
 				// "cwd": "${workspaceFolder}/NetCoreApp31.FunctionApp.Static/bin/Debug/netcoreapp3.1"
